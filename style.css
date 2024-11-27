@@ -1,0 +1,37 @@
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: sans-serif;
+  margin: 0;
+}
+.header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.content {
+  display: flex;
+}
+.posts {
+  width: 75%;
+  padding: 20px;
+}
+.posts article {
+  background-color: #333;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.login {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+.gradient-button {
+  background-image: linear-gradient(to right, #888, #fff);
+  color: #222;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}

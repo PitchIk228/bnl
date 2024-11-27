@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Регистрация - Бабушки на Лавочке</title>
+<style>body {
+  background-color: #222;
+  color: #eee;
+  font-family: sans-serif;
+  margin: 0;
+}
+.header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+.content {
+  display: flex;
+}
+.posts {
+  width: 75%;
+  padding: 20px;
+}
+.posts article {
+  background-color: #333;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.login {
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+}
+.gradient-button {
+  background-image: linear-gradient(to right, #888, #fff);
+  color: #222; 
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; 
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Регистрация</h1>
+</div>
+<div class="content">
+  <div class="login">
+    <form action="register.php" method="post">
+
+      <input type="text" placeholder="login" style="background-color:#333; color:#eee; border:1px solid #444; border-radius: 5px;" name="login">
+      <br>
+      <input type="text" placeholder="email" style="background-color:#333; color:#eee; border:1px solid #444; border-radius: 5px;" name="email">
+      <br>
+      <input type="password" placeholder="пароль" style="background-color:#333; color:#eee; border:1px solid #444; border-radius: 5px;" name="password">
+      <br>
+      <input type="password" placeholder="повторите пароль" style="background-color:#333; color:#eee; border:1px solid #444; border-radius: 5px;" name="reppass"> 
+      <br> 
+      <button type="submit" class="gradient-button">Зарегистрироваться</button>
+    </form>
+    
+  </div>
+</div>
+</body>
+</html>
